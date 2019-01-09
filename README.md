@@ -6,6 +6,68 @@ Typee is a JavaScript game which helps you to increase your typing speed through
 
 With the help of Typee, you will pick up typing speed without making any typos. The words that Typee gives you are repetitive through which you will learn to type faster without making mistakes, subconciously.
 
-In the end, Typee tell you how many words you have typed in one minute. 
+This game is inspired by TypeRacer and Avengers.
 
-The game is inspired by TypeRacer
+### Functionality
+
+* Players type a word seen on the screen. 
+* For every correct word thay type, Thor will strike Thanos and Thanos will loose his energy by one point and vice versa.
+* Set the timer. Give them 1 word in 5 seconds.
+* The game ends if either of them looses all their energy.
+
+### Technologies Employed
+
+* Vanilla Javascript for the game logic.
+* WepAudio Api for the background music.
+* Canvas and Sprites for rendering the characters.
+* Webpack to bundle various scripts into a single source.
+
+### MVP
+
+- [ ] Generate random words that player can type.
+- [ ] Start, pause, stop and new game buttons.
+- [ ] Basic visuals and an interactive interface.
+- [ ] Thor's way of attacking Thaos.
+- [ ] Determine the winner.
+- [ ] Write instructions on how to play the game.
+
+#### Bonus
+
+- [ ] Background music.
+- [ ] Make Thor hit Thanos and vice Versa creatively.
+- [ ] Display Loading aminators.
+- [ ] Winning animation.
+
+### Development Timeline
+
+#### January 9, Wednesday
+
+* Work on proposal.
+
+#### January 10, Thursday
+
+* Review JS, canvas and sprites.
+
+#### January 11, Friday
+
+* Set up the skeleton.
+* Make the words show on the screen.
+* Let players type.
+* Compare the words.
+
+#### January 12 & 13, Weekend
+
+* Complete player avator rendering.
+* Build points tracker.
+* Implement Thor's way of attacking Thaos.
+
+#### January 14, Monday
+
+* Finish game over condition.
+* Render scoreboard.
+* Write how to instructions.
+
+#### January 15, Tueaday
+
+* Add background music.
+* Display Loading animation.
