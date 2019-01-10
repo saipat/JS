@@ -15,6 +15,10 @@ This game is inspired by TypeRacer and Avengers.
 * Set the timer. Give them 1 word in 5 seconds.
 * The game ends if either of them looses all their energy.
 
+### Wireframes
+
+![Imgur](https://i.imgur.com/U0QBynU.png)
+
 ### Technologies Employed
 
 * Vanilla Javascript for the game logic.
