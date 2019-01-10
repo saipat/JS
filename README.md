@@ -1,10 +1,10 @@
-## Typee - A JavaScript Project
+## Typenger - A JavaScript Project
 
-### Typee
+### Typenger
 
-Typee is a JavaScript game which helps you to increase your typing speed through a fun interactive way. Typing fast is one of the essential skills for the software professionals.
+Typenger is a JavaScript game which helps you to increase your typing speed through a fun interactive way. Typing fast is one of the essential skills for the software professionals.
 
-With the help of Typee, you will pick up typing speed without making any typos. The words that Typee gives you are repetitive through which you will learn to type faster without making mistakes, subconciously.
+With the help of Typenger, you will pick up typing speed without making any typos. The words that Typenger gives you are repetitive through which you will learn to type faster without making mistakes, subconciously.
 
 This game is inspired by TypeRacer and Avengers.
 
@@ -12,8 +12,8 @@ This game is inspired by TypeRacer and Avengers.
 
 * Players type a word seen on the screen. 
 * For every correct word thay type, Thor will strike Thanos and Thanos will loose his energy by one point and vice versa.
-* Set the timer. Give them 1 word in 5 seconds.
-* The game ends if either of them looses all their energy.
+* Set the timer. Give them 1 or 2 words in  every 5 seconds.
+* The game ends if either of them loses all their energy.
 
 ### Wireframes
 
