@@ -10,41 +10,54 @@
     <script src="./lib/score_board.js"></script>
     <script src="./lib/play.js"></script>
     <script src="./lib/main.js"></script>
-    <!-- <script src="./example_coins.js"></script> -->
+    <script src="./lib/logo.js"></script>
 
 </head>
 <body>
-    <!-- <img src="./images/avengers.png" alt="avengers wallpaper" width="1500" height="800"/> -->
+    <img src="./images/wallpaper2.png" alt="avengers wallpaper" width="1500" height="800" class="wallpaper"/>
     <div class="game">
         <div>
-            <h1>Welcome to Typenger!</h1>
+            <h1 class="game-title">Welcome to Typenger!</h1>
             <div class="how-to">
-                <button id="play-btn">How to play</button>
-                <p class="instructions hidden"  id="">You are Thor. The fate of the universe is in your hands! Type words that are shown to you correctly. For every mis-typed word, Thor will get a hit and every correctly typed word Thanos will get a hit.
-                <span>When you are ready, click start. Good Luck Thor!</span>
-                </p>
+                <button id="play-btn" class="btn">How to play</button>
+                <button id="start-btn" class="btn">Start</button>
+                <button id="stop-btn" class="btn stop-btn">Stop</button>
             </div>
         </div>
 
         <div class="controls">
-            <button id="start-btn">START</button>
-            <button>STOP</button>
+            
+            <p class="instructions hidden" id="">You are Thor. The fate of the universe is in your hands! Type words that are shown
+                to you correctly. For every mis-typed word, Thor will get a hit and every correctly typed word Thanos will get a
+                hit.
+                <span>When you are ready, click start. Good Luck Thor!</span>
+            </p>
         </div>
 
         <div id="showOnStart" class="hidden">
+
+            <div class="countdown">
+                <p>
+                    Type the word shown in <span id="seconds">5 </span>seconds.
+                    
+                </p>
+                <h1 id="current-word">Hello</h1>
+                <input type="text" className="player-input" id="word-input" placeholder="    Start typing" autofocus />
+            </div>
+
             <div class="score-board">
-                <h3>Score Board</h3>
-                <h4>Thor
-                    <span id="thor">0</span>
+                <h2>Score Board</h2>
+                <p>Time left :
+                    <span id="time-left"> 0</span></p>
+                <h4>Thor :
+                    <span id="thor-score" class="score"> 0 </span>
                 </h4>
-                <h4>Thanos
-                    <span id="thanos">0</span>
+                <h4>Thanos :
+                    <span id="thanos-score" class="score"> 0 </span>
                 </h4>
             </div>
             
-            <div class="countdown">
-                <p>Your time starts now</p>
-            </div>
+            
             
             <div></div>
             
@@ -55,9 +68,9 @@
         
     </div>
     
-     <!-- <canvas id="coinAnimation">
+    <canvas id="coinAnimation" class="animation hidden2">
 
-    </canvas> -->
+    </canvas>
     
 </body>
 </html>
