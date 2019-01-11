@@ -1,3 +1,6 @@
+.main {
+    position: relative;
+}
 .hidden {
     display: none;
 }
@@ -76,8 +79,8 @@
 
 .countdown {
     position: absolute;
-    top: 5%;
-    left: 170%;
+    top: 10%;
+    left: 150%;
     width: 80%;
 }
 
@@ -108,6 +111,11 @@ h2, h4{
     border: 5px solid indianred;
     font-size: 24px;
 }
+/* 
+.thor-gif {
+    position: absolute;
+    top: 70%
+} */
 
 
 
