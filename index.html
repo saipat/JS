@@ -6,9 +6,48 @@
     <title>Page Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <script src="app.js"></script>
+    <script src="./lib/game.js"></script>
+    <script src="./lib/score.js"></script>
+    <script src="./lib/words.js"></script>
 </head>
 <body>
+    <!-- <img src="./images/avengers.png" alt="avengers wallpaper" width="1500" height="800"/> -->
+    <div class="game">
+        <div>
+            <h1>Welcome to Typenger!</h1>
+            <button class="how-to">How to play</button>
+            <p class="intructions">You are Thor. The fate of the universe is in your hands! Type words that are shown to you correctly. For every wrongly typed word, Thor will get hit and every correctly typed word Thanos
+            will get hit.</p>
+            <p>When you are ready, click start. Good Luck Thor!</p>
+        </div>
+
+        <div class="controls">
+            <button>START</button>
+            <button>STOP</button>
+        </div>
+
+        <div class="score-board">
+            <h3>Score Board</h3>
+            <h4>Thor
+                <span id="thor">0</span>
+            </h4>
+            <h4>Thanos
+                <span id="thanos">0</span>
+            </h4>
+        </div>
+
+        <div class="countdown">
+            <p>Your time starts now</p>
+        </div>
+
+        <canvas id="displayAnimation">
+
+        </canvas>
+    </div>
     
+    <!-- <canvas id="coinAnimation">
+
+    </canvas>
+    -->
 </body>
 </html>
