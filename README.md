@@ -8,16 +8,14 @@ With the help of Typenger, you will pick up typing speed without making any typo
 
 This game is inspired by TypeRacer and Avengers.
 
+![Imgur](https://i.imgur.com/PiWKBH8.png)
+
 ### Functionality
 
 * Players type a word seen on the screen. 
 * For every correct word thay type, Thor will strike Thanos and Thanos will loose his energy by one point and vice versa.
 * Set the timer. Give them 1 or 2 words in  every 5 seconds.
 * The game ends if either of them loses all their energy.
-
-### Wireframes
-
-![Imgur](https://i.imgur.com/U0QBynU.png)
 
 ### Technologies Employed
 
@@ -26,52 +24,21 @@ This game is inspired by TypeRacer and Avengers.
 * Canvas and Sprites for rendering the characters.
 * Webpack to bundle various scripts into a single source.
 
-### MVP
+### Fearures
 
-- [ ] Generate random words that player can type.
-- [ ] Start, pause, stop and new game buttons.
-- [ ] Basic visuals and an interactive interface.
-- [ ] Thor's way of attacking Thaos.
-- [ ] Determine the winner.
-- [ ] Write instructions on how to play the game.
+![Imgur](https://i.imgur.com/IpMNpdr.png)
 
-#### Bonus
+* Generate random words that player can type.
+* Start, pause, stop and new game buttons.
+* Basic visuals and an interactive interface.
+* Determine the winner.
+* Instructions on how to play the game.
+* Background music.
 
-- [ ] Background music.
+#### Future Features
+
 - [ ] Make Thor hit Thanos and vice Versa creatively.
 - [ ] Display Loading aminators.
 - [ ] Winning animation.
 
-### Development Timeline
 
-#### January 9, Wednesday
-
-* Work on proposal.
-
-#### January 10, Thursday
-
-* Review JS, canvas and sprites.
-
-#### January 11, Friday
-
-* Set up the skeleton.
-* Make the words show on the screen.
-* Let players type.
-* Compare the words.
-
-#### January 12 & 13, Weekend
-
-* Complete player avator rendering.
-* Build points tracker.
-* Implement Thor's way of attacking Thaos.
-
-#### January 14, Monday
-
-* Finish game over condition.
-* Render scoreboard.
-* Write how to instructions.
-
-#### January 15, Tueaday
-
-* Add background music.
-* Display Loading animation.
