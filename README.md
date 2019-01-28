@@ -21,7 +21,65 @@ This game is inspired by TypeRacer and Avengers.
 
 * Vanilla Javascript for the game logic.
 * WepAudio Api for the background music.
+``` JS
+let audio = document.querySelector('audio');
+    let play = document.querySelector('.play');    
+
+    audio.addEventListener('play', playTrack);
+    audio.addEventListener('pause', pauseTrack);
+
+    play.addEventListener('click', () => {
+        if (audio.paused) {
+            audio.play();
+            playTrack();
+        } else {
+            audio.pause();
+            pauseTrack();
+        }
+    });
+
+    audio.addEventListener('ended', () => {
+        pauseTrack();
+    });
+```
 * Canvas and Sprites for rendering the characters.
+
+``` JS
+<canvas id="thorAnimation" class="thor-animation hidden"></canvas>
+
+var canvas = document.getElementById("thorAnimation");
+    canvas.width = 1200;
+    canvas.height = 1000;
+
+    var thor = new sprite({
+        context: canvas.getContext("2d"),
+        width: 8000,
+        height: 500,
+        image: spriteSheet,
+        numberOfFrames: 16
+    });
+
+    var thano = new sprite({
+        context: canvas.getContext("2d"),
+        width: 7700,
+        height: 500,
+        image: thanosSheet,
+        numberOfFrames: 20
+    });
+    
+   // Draw the animation
+      that.context.drawImage(
+          that.image,
+          dx1,
+          dy,
+          that.width / numberOfFrames,
+          that.height,
+          destX,
+          destY,
+          that.width / numberOfFrames,
+          that.height);
+      };
+```
 * Webpack to bundle various scripts into a single source.
 
 ### Fearures
